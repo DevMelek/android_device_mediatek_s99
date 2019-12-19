@@ -82,9 +82,6 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 # Zygote whitelist extra paths
 ZYGOTE_WHITELIST_PATH_EXTRA := \"/proc/ged\",
 
-# Fonts
-EXTENDED_FONT_FOOTPRINT := true
-
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
 # Bluetooth
